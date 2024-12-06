@@ -7,7 +7,7 @@ copyright = '2024, Amine EL Hend'
 author = 'Amine EL Hend'
 release = '6.12.24'
 master_doc = 'index'
-extensions = ["sphinx_needs",]
+extensions = []
 """
 extensions = [
     'sphinx.ext.autodoc',
