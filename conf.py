@@ -7,14 +7,13 @@ copyright = '2024, Amine EL Hend'
 author = 'Amine EL Hend'
 release = '6.12.24'
 master_doc = 'index'
-extensions = ["sphinx_needs",]
-"""
+
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon'
+    'sphinx.ext.napoleon',
+    'sphinx_rtd_theme'
 ]
-"""
 templates_path = ['_templates']
 exclude_patterns = []
 
